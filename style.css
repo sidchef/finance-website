@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: #008000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: none;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.2px solid white;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 115px;
+}
+
+.logo {
+    background-image: url("1.png"); 
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+
+}
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 13px;
+}
+.add-sec {
+    font-size: 1rem;
+    margin: 2px;
+    margin-left: 3px;
+}
+.add-ind {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    width: 650px;
+    height: 42px;
+    background-color: aqua;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 2px #ffa600;
+}
+
+.nav-opt {
+    background-color: #f3f3f3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.nav-all{
+    border-radius: 5px;
+}
+
+.search-in{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+ .search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #ff9900;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+ }
+.country {
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    font-weight: 200;
+}
+.hello{
+    font-size: 0.80rem;
+}
+.accounts{
+    font-size: 0.85rem;
+}
+.nav-lists{
+    display: flex;
+    font-weight: 700;
+
+}
+
+.nav-aroow{
+    color: #cccccc;
+}
+
+.return{
+    font-size: 0.80rem;
+
+}
+.orders{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart {
+    display: flex;
+}
+.sea-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #ff9900;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+    border:none;
+}
+
+.panel{
+    display: flex;
+    background-color: #222f3d;
+    height: 39px;
+    color: white;
+    align-items: center;
+    padding-left: 11px;
+    font-size: 15px;
+}
+.nav-left{
+    margin: 2px;
+}
+
+.panel-opt p {
+    display: inline;
+    justify-content: space-evenly;
+    margin: 10px;
+    
+}
+.panel-opt {
+    margin-left: 20px;
+}
+
+.main-section{
+    background-image: url("full\ back.jpg");
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+.white-sec{
+    background-color: white;
+    color: blue;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+.shop-sec{
+    display: flex;
+    background-image: url("final\ pink.jpg");
+    
+
+}
+.box1{
+    justify-content: space-evenly;
+}
+.box{
+    border: 2px solid white;
+    height: 375px;
+    width: 420px;
+    margin: 9px;
+    background-color: white;
+}
+.box1 p{
+    margin-left: 10px;
+    margin-top: 15px;
+
+}
+.Gaming{
+    height: 27px;
+    width: 300px;
+    margin-top: 8px;
+    margin-left: 7px;
+}
+.link{
+    color: blue;
+    font-size: 0.75rem;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.link:hover{
+    color:orange;
+}
+.underline:hover{
+    text-underline-position: below;
+    color: #ff9900;
+}
+.toys{
+    height: 27px;
+    width: 300px;
+    margin-top: 8px;
+    margin-left: 7px;
+
+}
+.image{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.electronics{
+    height: 27px;
+    width: 300px;
+    margin-top: 8px;
+    margin-left: 7px;
+
+}
+.home{
+    height: 27px;
+    width: 300px;
+    margin-top: 8px;
+    margin-left: 7px;
+
+}
